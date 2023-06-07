@@ -5,7 +5,7 @@ const Book = ({ imgUrl }) => {
   return (
     <View className="">
       <Image
-        className="w-32 h-44"
+        className="w-36 h-44"
         resizeMode="contain"
         source={{
           uri: imgUrl,
