@@ -3,10 +3,10 @@ import { Image, View } from 'react-native';
 
 const Book = ({ imgUrl }) => {
   return (
-    <View className="">
+    <View className="px-3">
       <Image
-        className="w-36 h-44"
-        resizeMode="contain"
+        className="w-28 h-44 rounded"
+        resizeMode="cover"
         source={{
           uri: imgUrl,
         }}

@@ -6,7 +6,6 @@ const BooksList = ({ header, subheader, children }) => {
     <View className="px-6 pb-8">
       <Text className="text-3xl pb-1 font-serif">{header}</Text>
       <Text className="text-base pb-3 text-neutral-700">{subheader}</Text>
-
       <ScrollView
         contentContainerStyle={{
           flexDirection: 'row',
